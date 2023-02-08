@@ -124,7 +124,7 @@
   overflow: hidden;
   position: fixed;
   top:85%;
-  left: 35%;
+  left: 32%;
   width: 15%;  
 }
 
@@ -141,7 +141,6 @@
 }
 
 .bottomnav1 a:hover {
-  transform: scale(1.5);
   cursor: pointer;
 }
 
@@ -164,7 +163,7 @@
   overflow: hidden;
   position: fixed;
   top:85%;
-  left:45%;
+  left:43.5%;
   width: 10%;
 }
 
@@ -180,7 +179,6 @@
 }
 
 .bottomnav2 a:hover {
-  transform: scale(1.5);
   cursor: pointer;
 }
 
@@ -219,7 +217,6 @@
 }
 
 .bottomnav3 a:hover {
-  transform: scale(1.5);
   cursor: pointer;
 }
 
@@ -268,6 +265,7 @@
     font-size: 20px;
     transition: transform .2s; /* Animation */
     overflow-y:auto;
+    transform: scale(1.1);
 }
 
 .mainworkbody_text{
@@ -281,7 +279,6 @@
 }
 
 .mainworkbody:hover{
-    transform: scale(1.1);
 }
 
 .worktiles1{
@@ -313,11 +310,13 @@
     padding-top: 10%;
     padding-left: 20%;
     transition: transform .2s; /* Animation */
+    cursor: default;
 }
 
+/*
 .div_name:hover{
     transform: scale(1.1);
-}
+}*/
 
 .fancy_text1{
     background-color: #28273f;
@@ -353,11 +352,13 @@
     float:left;
     padding-left: 20%;
     transition: transform .2s; /* Animation */
+    cursor: default;
 }
 
+/*
 .div_small_a:hover{
     transform: scale(1.1);
-}
+}*/
 
 .fancy_box_about{
     position: absolute;
